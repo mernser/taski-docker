@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -65,11 +66,6 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 #         'NAME': '/data/db.sqlite3',
 #     }
 # }
-# from dotenv import load_dotenv
-import os
-
-# Загружаем переменные из .env файла
-# load_dotenv()
 
 DATABASES = {
     'default': {
